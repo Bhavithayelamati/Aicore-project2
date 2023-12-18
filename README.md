@@ -5,6 +5,12 @@
 - [Description](#description)
 - [Installation](#installation)
 - [Usage](#usage)
+- [Milestones](#milestones)
+  - [Milestone 1: Define the List of Possible Words](#milestone-1-define-the-list-of-possible-words)
+  - [Milestone 2: Choose a Random Word from the List](#milestone-2-choose-a-random-word-from-the-list)
+  - [Milestone 3: Ask the User for Input and Validate](#milestone-3-ask-the-user-for-input-and-validate)
+  - [Milestone 4: Check if the Guessed Letter is in the Word](#milestone-4-check-if-the-guessed-letter-is-in-the-word)
+  - [Milestone 5: Implement Hangman Class and Run the Game](#milestone-5-implement-hangman-class-and-run-the-game)
 - [File Structure](#file-structure)
 - [License](#license)
 
@@ -18,31 +24,41 @@ To set up the Hangman game on your local machine:
 2. Download or clone the repository to your preferred directory.
 3. Open a terminal or command prompt.
 4. Navigate to the project directory.
-5. Run the `milestone_2.py` file to initiate the Hangman game.
+5. Run the `milestone_5.py` file to initiate the Hangman game.
 
-## Usage - Milestone 2
-1. Open the terminal or command prompt.
-2. Navigate to the project directory.
-3. Run the `milestone_2.py` file to play the Hangman game.
-4. Follow the on-screen instructions to guess the word.
- 
-## Usage - Milestone 3
-1. Open the terminal or command prompt.
-2. Navigate to the project directory.
-3. Run the `milestone_3.py` file to play the Hangman game with continuous user input and guess checking.
-4. Follow the on-screen instructions to interact with the game.
+## Milestones
 
-## Usage - Milestone 4
-1. Open the terminal or command prompt.
-2. Navigate to the project directory.
-3. Run the `milestone_4.py` file to play the Hangman game with class-based implementation.
-4. Follow the on-screen instructions to interact with the game.
+### Milestone 1: Define the List of Possible Words
+- Create a list containing the names of your 5 favorite fruits.
+- Assign this list to a variable called `word_list`.
+- Print out the newly created list to the standard output (screen).
+
+### Milestone 2: Choose a Random Word from the List
+- Import the `random` module.
+- Use the `random.choice` method to pick a word from the `word_list`.
+- Assign the randomly generated word to a variable called `word`.
+- Print out the chosen word.
+
+### Milestone 3: Ask the User for Input and Validate
+- Create a while loop for continuous user input.
+- Ask the user to guess a letter and assign it to a variable called `guess`.
+- Check if the guess is a single alphabetical character.
+- If the guess is valid, break out of the loop; otherwise, print an error message.
+
+### Milestone 4: Check if the Guessed Letter is in the Word
+- Create an `if` statement to check if the guessed letter is in the word.
+- Print a message indicating whether the guess is correct or not.
+
+### Milestone 5: Implement Hangman Class and Run the Game
+- Create a Hangman class with an `__init__` method to initialize game attributes.
+- Define a `check_guess` method to handle checking if the guess is in the word.
+- Define an `ask_for_input` method to manage user input and call the `check_guess` method.
+- Implement a `play_game` function that orchestrates the game logic.
+- Run the game using the `play_game` function.
 
 ## File Structure
 Hangman/
 │
-├── milestone_2.py
-├── milestone_3.py
-├── milestone_4.py
+├── milestone_5.py
 │
 └── README.md
