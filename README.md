@@ -20,15 +20,29 @@ To set up the Hangman game on your local machine:
 4. Navigate to the project directory.
 5. Run the `milestone_2.py` file to initiate the Hangman game.
 
-## Usage
+## Usage - Milestone 2
 1. Open the terminal or command prompt.
 2. Navigate to the project directory.
 3. Run the `milestone_2.py` file to play the Hangman game.
 4. Follow the on-screen instructions to guess the word.
+ 
+## Usage - Milestone 3
+1. Open the terminal or command prompt.
+2. Navigate to the project directory.
+3. Run the `milestone_3.py` file to play the Hangman game with continuous user input and guess checking.
+4. Follow the on-screen instructions to interact with the game.
+
+## Usage - Milestone 4
+1. Open the terminal or command prompt.
+2. Navigate to the project directory.
+3. Run the `milestone_4.py` file to play the Hangman game with class-based implementation.
+4. Follow the on-screen instructions to interact with the game.
 
 ## File Structure
 Hangman/
 │
 ├── milestone_2.py
+├── milestone_3.py
+├── milestone_4.py
 │
 └── README.md
